@@ -84,13 +84,19 @@
             <br />
             Cambridge MA, 02113
           </div>
-          <div class="col-12 col-sm-3">
+          <div class="col-12 col-sm-3 social">
             <b>Social</b>
             <br />
             <br />
-            <span class="fab fa-facebook-2x"></span>
-            <span class="fab fa-twitter-square-2x"></span>
-            <span class="fa fa-github-square-2x"></span>
+            <%= link_to 'https://github.com/DavidLineman' do %>
+              <span class="fa fa-github-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://www.facebook.com/' do %>
+              <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://twitter.com/daveline215' do %>
+              <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <% end %>
           </div>
         </div>
       </div>
@@ -101,3 +107,4 @@
 
  </body>
 </html>
+
