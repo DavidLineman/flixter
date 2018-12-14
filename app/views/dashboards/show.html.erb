@@ -19,9 +19,10 @@
     <br class="clr" />
   <% end %>
 
-  <hr class="col-8 offset-2">
+  <hr class="col-8 offset-2 dark">
+  <hr class="col-8 offset-2 dark">  
 
-  <h1>What I'm Teaching</h1>
+  <h1 id="teach">What I'm Teaching</h1>
   <% current_user.courses.each do |course| %>
     <h3 class="text-center">
       <%= link_to course.title, course_path(course) %>
